@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TodoList App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="todolist.css" rel="stylesheet">
+</head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="clear">
+                    <span id="title">Naman-mahi</span>
+                    <i class="fa fa-refresh" aria-hidden="true"></i>
+                </div>
+                <div class="profile">
+                    <img src="https://media-exp1.licdn.com/dms/image/C5603AQEwP6QHJqUTow/profile-displayphoto-shrink_400_400/0/1625671860598?e=1635984000&v=beta&t=KZhZkmLRQc17V-r34U2qL3lJs8xtDFjx49EpWzWiAkc">
+                    <span class="notification">1</span>
+                </div>
+                <div id="date"></div>
+            </div>
+            <div class="content">
+                <ul id="list">
+                </ul>
+                <div class="add-item">
+                    <i class="fa fa-plus-circle" id="add" aria-hidden="true"></i>
+                    <input type="text" id="input" placeholder="Add a To-Do">
+                </div>
+            </div>
+        </div>
+        
+        <script src="todolist.js"></script>
+    </body>
+</html>
